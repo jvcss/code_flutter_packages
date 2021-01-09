@@ -10,12 +10,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/packages/string_validators/.dart_tool/package_config.json" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/packages/string_validators/.dart_tool/version" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/packages/string_validators/.dart_tool/package_config_subset" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/packages/string_validators/.packages" root0="SKIP_INSPECTION" />
   </component>
+=======
+>>>>>>> ff9a3d2028fd59270178dace955623ecb9364c7a
   <component name="ProjectId" id="1moJcm1iy5LDhFDUncXooa8rC9X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />

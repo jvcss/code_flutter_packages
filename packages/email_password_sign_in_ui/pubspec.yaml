@@ -8,6 +8,14 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  firebase_auth: ^0.18.0+1
+  flutter:
+    sdk: flutter
+  string_validators:
+    #path: ../string_validators
+    git:
+      url: https://github.com/jvcss/code_flutter_packages
+      path: packages/string_validators
   alert_dialogs:
     #path: ../alert_dialogs
     git:
@@ -18,14 +26,8 @@ dependencies:
     git:
       url: https://github.com/jvcss/code_flutter_packages
       path: packages/custom_buttons
-  string_validators:
-    #path: ../string_validators
-    git:
-      url: https://github.com/jvcss/code_flutter_packages
-      path: packages/string_validators
-firebase_auth: ^0.18.0+1
-  flutter:
-    sdk: flutter
+
+  
 
 dev_dependencies:
   flutter_test:
