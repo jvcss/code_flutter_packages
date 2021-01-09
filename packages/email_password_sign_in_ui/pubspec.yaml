@@ -1,17 +1,16 @@
 name: email_password_sign_in_ui
 description: A new Flutter package project.
 version: 0.2.0
-author: Andrea Bizzotto
-homepage: https://www.codewithandrea.com
+author:
+homepage:
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  firebase_auth: ^0.18.4+1
   alert_dialogs:
     #path: ../alert_dialogs
-   git:
+    git:
       url: https://github.com/jvcss/code_flutter_packages
       path: packages/alert_dialogs
   custom_buttons:
@@ -24,9 +23,8 @@ dependencies:
     git:
       url: https://github.com/jvcss/code_flutter_packages
       path: packages/string_validators
-
-
-flutter:
+firebase_auth: ^0.18.0+1
+  flutter:
     sdk: flutter
 
 dev_dependencies:
@@ -37,7 +35,7 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter.
- flutter: null
+flutter: null
 
 # To add assets to your package, add an assets section, like this:
 # assets:
