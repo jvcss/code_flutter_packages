@@ -4,8 +4,8 @@ class EmailPasswordSignInPage extends StatefulWidget {
   const EmailPasswordSignInPage(
       {Key key, @required this.model, this.onSignedIn})
       : super(key: key);
-  final EmailPasswordSignInModel model;
-  final VoidCallback onSignedIn;
+  final EmailPasswordSignInModel model; // ignore: diagnostic_describe_all_properties
+  final VoidCallback onSignedIn; // ignore: diagnostic_describe_all_properties
 
   factory EmailPasswordSignInPage.withFirebaseAuth(FirebaseAuth firebaseAuth,
       {@required VoidCallback onSignedIn}) {
@@ -25,7 +25,7 @@ class _EmailPasswordSignInPageState extends State<EmailPasswordSignInPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 
-  EmailPasswordSignInModel get model => widget.model;
+  EmailPasswordSignInModel get model => widget.model; // ignore: diagnostic_describe_all_properties
 
   @override
   void initState() {
